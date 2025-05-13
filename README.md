@@ -2,7 +2,7 @@
 # Team Project Template
 
 ## 프로젝트 소개
-이 프로젝트는 4인 개발팀이 협업하여 만드는 앱/웹 서비스입니다.
+이 프로젝트는 4인 개발팀이 협업하여 만드는 앱 서비스입니다.
 
 ## 주요 기능
 - 사용자 로그인 및 인증
@@ -11,8 +11,8 @@
 - 이미지 업로드
 
 ## 기술 스택
-- Frontend: Flutter or React
-- Backend: Firebase or Node.js
+- Frontend: Flutter
+- Backend: Firebase
 - 협업: GitHub, Notion, Figma
 
 ## 디렉토리 구조
