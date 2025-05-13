@@ -1,0 +1,15 @@
+
+# IDE & OS
+.DS_Store
+*.iml
+*.swp
+.idea/
+.vscode/
+
+# Build files
+build/
+dist/
+*.pyc
+*.class
+node_modules/
+.env
