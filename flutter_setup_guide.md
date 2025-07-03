@@ -64,6 +64,18 @@ flutter create dimo_app
 cd dimo_app
 flutter run
 ```
+6번은 따라하지 말고 디모 앱은 내(수민)가 만들었으니까 그거 파일 깃헙에 공유할테니 그 파일로 같이 하장!!! 
+깃허브에 파일 올릴테니 아래 과정으로 복제하여 사용하면 됨! 수정사항 있으면 수정하고 수정사항 기재하여 깃헙에 푸시하기
+
+```bash
+git clone https://github.com/shin-sumin/dimo-app.git
+cd dimo-app
+flutter pub get   # 의존성 설치
+flutter run       # 실행 테스트
+
+```
+![image](https://github.com/user-attachments/assets/962ef31b-2848-4d5f-870a-7f5e306f5790)
+
 
 ---
 
