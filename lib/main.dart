@@ -2,12 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
+import 'screens/routine_setting_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/main_app_with_bottom_nav.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp( 
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+try {
+  await FirebaseAuth.instance.signInAnonymously();
+  print("Firebase Anonymous Login 성공!");
+} catch (e, stack) {
+  print("Firebase Anonymous Login 실패: $e");
+  print(stack);
+}
+ 
   runApp(const MyApp());
 }
 
@@ -37,7 +52,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MainAppWithBottomNav(),
     );
   }
 }
