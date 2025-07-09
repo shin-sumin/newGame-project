@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Miscellaneous
 *.class
 *.log
@@ -43,3 +44,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+=======
+
+# IDE & OS
+.DS_Store
+*.iml
+*.swp
+.idea/
+.vscode/
+
+# Build files
+build/
+dist/
+*.pyc
+*.class
+node_modules/
+.env
+>>>>>>> 8d7fd46c3b770400d928d459e1400740d66cc660
