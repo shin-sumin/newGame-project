@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501476602",
+    "project_id": "dimo-app-a072f",
+    "storage_bucket": "dimo-app-a072f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501476602:android:767e7a1fcf2302729c6d43",
+        "android_client_info": {
+          "package_name": "com.example.dimo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJQPItv3c_XXkAO1m_HKuchaaDlsEDNpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
